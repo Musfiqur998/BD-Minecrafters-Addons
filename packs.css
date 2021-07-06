@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+.font{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+.topbar{
+    background-color:orange;
+    padding-bottom: 35px;
+}
+
+
+.homebtn{
+    text-decoration: none;
+    color: black;
+    font-size: 100px;
+    text-align: center;
+    margin-left: 210px;
+    margin-top: 60px;
+}
+
+.logo{
+    position: absolute;
+    top: -15px;
+    padding: 5px;
+}
+
+.home{
+    text-decoration:none;
+    
+    color:coral;
+    background-color: black;
+    padding-top: 11px;
+    padding-bottom: 8px;
+    padding-right: 12px;
+    padding-left: 12px;
+    font-size: 25px;
+    position: absolute;
+    top:10px;
+    left: 69.8%;
+    transition-property: color;
+    transition: 0.5s;
+    
+}
+
+.home:hover{
+    color: white;
+    background-color:darkkhaki;
+}
+
+
+
+.packs{
+    text-decoration: none;
+    padding-top: 11px;
+    padding-bottom: 8px;
+    padding-right: 12px;
+    padding-left: 12px;
+    color: black;
+    position: absolute;
+    left: 75.7%;
+    top: 11px;
+    background-color: white;
+    border-radius: 10px;
+    transition-property: color;
+    transition: 0.5s;
+}
+
+.packs:hover{
+    background-color:cornflowerblue;
+    color: aqua;
+}
+
+
+.mods{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    padding-top: 11px;
+    padding-bottom: 8px;
+    padding-right: 12px;
+    padding-left: 12px;
+    color: black;
+    position: absolute;
+    left: 84.7%;
+    top: 11px;
+    background-color: white;
+    transition-property: color;
+    transition: 0.5s;
+}
+
+.mods:hover{
+    background-color:cornflowerblue;
+    color: aqua;
+}
+
+.about-us{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    padding-top: 11px;
+    padding-bottom: 8px;
+    padding-right: 12px;
+    padding-left: 12px;
+    color: black;
+    position: absolute;
+    left: 89.1%;
+    top: 11px;
+    background-color: white;
+    transition-property: color;
+    transition: 0.5s;
+}
+
+.about-us:hover{
+    background-color:cornflowerblue;
+    color: aqua;
+}
