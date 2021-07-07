@@ -45,7 +45,6 @@ body{
     position: absolute;
     top:10px;
     left: 69.8%;
-    border-radius: 10px;
     transition-property: color;
     transition: 0.5s;
     
@@ -69,6 +68,7 @@ body{
     left: 75.7%;
     top: 11px;
     background-color: white;
+    border-radius: 10px;
     transition-property: color;
     transition: 0.5s;
 }
@@ -123,51 +123,59 @@ body{
     color: aqua;
 }
 
-.pack-1{
-    text-decoration: none;
-    background-color: white;    
-    color: coral;
-    font-size: 50px;
+.bacons-texture-pic{
     position: absolute;
-    top: 300px;
-    font-family: 'Otomanopee One', sans-serif;
-    padding-left: 10px;
-    padding-right: 1530px;
-    padding-bottom: 400px;
+    top: 250px;
+    left: 20px;
+    width: 1000px;
+    height: 500px;
 }
-
-/*Balcons Texture Pack*/
 
 .bacons-texture-pack-text{
     position: absolute;
-    top: 690px;
+    top: 82%;
     left: 20px;
-    font-size: 70px;
+    font-size: 60px;
+    color: white;
 }
 
-.bacons-texture-pic{
+.ver{
     position: absolute;
-    top: 380px;
-    left: 20px;
-    width: 600px;
-    
+    top: 91%;
+    left: 35%;
+    font-size: 25px;
+    color: skyblue;
+}
+
+.reso{
+    position: absolute;
+    top: 96%;
+    left: 35%;
+    font-size: 25px;
+    color: skyblue;
+}
+
+.down-btn{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    text-decoration: none;
+    color: white;
+    background-color: turquoise;
+    font-size: 40px;;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 25px;
+    padding-left: 25px;
 }
 
 
-/*MoHaEmNiq22 purple 16x texture pack*/
-
-/*
-.mohaemniq22-purple-16x-texture{
+.balcons-texture-pack-desc{
     position: absolute;
-    top: 690px;
-    left: 20px;
-    font-size: 70px;
+    top: 115%;
+    left: 25px;
+    color: wheat;
+    background-color: black;
+    padding-bottom: 50px;
+    font-size: 50px;
 }
-
-.mohaemniq22-purple-16x-texture-pic{
-    position: absolute;
-    top: 380px;
-    left: 20px;
-    width: 600px;
-    
-}*/
